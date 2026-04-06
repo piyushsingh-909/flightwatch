@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "functions": {
+    "api/flights.js": {
+      "maxDuration": 15
+    }
+  },
+  "routes": [
+    {
+      "src": "/api/flights",
+      "dest": "/api/flights.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}

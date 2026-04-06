@@ -4,6 +4,6 @@
   "description": "Live ADS-B aircraft tracker powered by AirLabs",
   "private": true,
   "engines": {
-    "node": "18.x"
+    "node": "24.x"
   }
 }

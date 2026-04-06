@@ -1,7 +1,7 @@
 {
   "version": 2,
   "functions": {
-    "api/flights.js": {
+    "api/*.js": {
       "maxDuration": 15
     }
   },
